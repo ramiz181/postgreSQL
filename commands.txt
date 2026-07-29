@@ -1,0 +1,8 @@
+
+1. asking password everytime ==> solution 
+    export PGPASSWORD="actual_password"
+
+
+        username    DB_name     File_name
+            |          |            |
+psql -U postgres -d instadb -f 03_table.sql
